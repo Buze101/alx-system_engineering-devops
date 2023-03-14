@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo "scale=2" | tr '\n' ';' | bc <<< "$BREATH^$LOVE" | tr '\n' ' ' | tr ';' '\n')
+echo $((BREATH**LOVE))
